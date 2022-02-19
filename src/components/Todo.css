@@ -1,0 +1,139 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(106, 138, 185);
+}
+.main-div{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    padding-top: 40px;
+}
+input{
+    width: 50%;
+    /* border: 3px solid #00b4cc; */
+    border: none;
+    padding: 16px;
+    height: 20px;
+    border-radius: 5px 0px 0px 5px;
+    outline: none;
+    font-size: 18px;
+}
+input:focus {
+    color: #00b4cc;
+  } 
+img{
+    width: 150px;
+    height: 150px;
+    margin-bottom: 30px;
+}  
+Button {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background: #048b9c;
+    text-align: center;
+    color: #fff;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    outline: none;
+    font-size: 16px;
+    margin: 3px;
+    border: 1px solid rgb(206, 201, 201);
+}
+  
+Button:hover {
+    background-color: #17b8ce;
+  }
+.Btndiv{
+    display: flex;
+    margin: auto;
+    align-items: center;
+}
+.EachItem{
+    margin-bottom: 5px;
+    /* border: 2px solid green; */
+    /* width: 300px; */
+    /* padding: auto; */
+    height: auto;
+    padding: 8px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    padding-left: 20px;
+    /* background-color: rgb(162, 126, 185); */
+    background-color: #0c6570;
+    border-radius: 10px;
+}
+.EachItem:hover{
+    /* background-color: ;
+     */
+    background: #048b9c;
+
+}
+.span{
+    width: 340px;
+    font-size: 20px;
+    /* border: 2px solid rgb(120, 87, 196); */
+    color: white;
+    text-align: left;
+}
+.edit{
+    background-color: #1dcc34;
+    margin-right: 25px;
+    /* border-radius: 2px; */
+}
+.delete{
+    background-color: #f03b3b;
+    /* border-radius: 2px; */
+
+}
+.ItemAdded{
+    /* border: 2px solid black; */
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    /* justify-items: center; */
+    text-align: center;
+    /* align-content: center; */
+    padding-top: 40px;   
+}
+
+.Removeallbtn{
+    width: 50%;
+    text-transform:uppercase;
+    border-radius: 5px ;
+    /* color: rgb(245, 75, 75); */
+    background-color: rgb(241, 146, 146);
+    margin: 20px;
+}
+
+@media(max-width:535px){
+    .EachItem{
+        /* background-color: black; */
+        /* flex-wrap: wrap; */
+        width: 400px;
+        /* height: 100px; */
+        margin: auto;
+        align-items: center;
+        border-bottom: 10px solid rgb(106, 138, 185);
+        border-radius: 10px;
+        
+    }
+    .edit{ 
+        margin-right:5px;
+       width: 100px;
+    }
+    .delete{
+        width: 130px;        
+    }
+}
